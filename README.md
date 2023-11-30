@@ -18,7 +18,7 @@ Welcome to the repository "Úvod do programování: Python"! This repository pro
 
 ## How to Use the Repository
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+1. Clone the repository: `git clone https://github.com/ShevchenkoOl/-vod-do-programov-n-Python.git`
 
 2. Navigate to the relevant section to explore the corresponding material.
 
