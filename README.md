@@ -4,18 +4,31 @@ Welcome to the repository "Úvod do programování: Python"! This repository pro
 
 ## Course Content
 
-1. **Variable Declaration:** How to create and use variables in Python.
+1. **Numbers and strings:** Now we'll actually start programming and try out the first Python commands.
+      Čísla a řetězce
+      Nyní už skutečně začneme programovat a vyzkoušíme si první příkazy v jazyce Python.
 
-2. **Basic Mathematical Operations:** Examples of addition, subtraction, multiplication, division, and modulo operations.
+2. **Variables:** We need variables to be able to remember some value for later use.
+      Proměnné
+      Proměnné potřebujeme k tomu, abychom si mohli nějakou hodnotu zapamatovat pro pozdější použití.
 
-3. **Working with Strings:** How to manipulate text data in Python.
+3. **Functions and modules:** We'll show you how to use functions and import modules so you don't have to write everything in Python from scratch.
+      Funkce a moduly
+      Ukážeme si, jak používat funkce a importovat moduly, abychom nemuseli všechno v Pythonu psát od píky.
 
-4. **Functions:** Defining and using functions to organize code.
+4. **Entry and exit:** We need input and output so that the program can communicate with the user.
+      Vstup a výstup
+      Vstup a výstup potřebujeme aby program dokázal komunikovat s uživatelem.
+   
+5. **Conditions:** In this chapter, we will teach our programs to make decisions and change their behavior based on input.
+      Podmínky
+      V této kapitole naučíme naše programy rozhodovat se a měnit svoje chování podle zadaného vstupu.
+   
+7. **Sequential Values:** Thanks to sequences, we can store multiple values in one variable at once.
+      Sekvenční hodnoty
+      Díky sekvencím můžeme do jedné proměnné uložít více hodnot najednou.
 
-5. **Loops:** Basics of loop structures in Python.
-
-6. **Sequential Values:** Introduction to lists and tuples.
-
+   
 ## How to Use the Repository
 
 1. Clone the repository: `git clone https://github.com/ShevchenkoOl/-vod-do-programov-n-Python.git`
