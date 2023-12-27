@@ -42,7 +42,7 @@ print(a)
 print('martin' + ' ' + 'podloucký') # martin podloucký 
 print('bla ' * 10)                  # bla bla bla bla bla bla bla bla bla bla 
 
-
+#----------------------------------Cvičení 1 Jednoduchá aritmetika----------------------------------
 
 ticket = 12
 spectators = 174
@@ -53,14 +53,16 @@ print('měsíční příjem divadla ze vstupného přichází je ' + str(ticket 
 total = (ticket * (spectators//2) * performances) + (0.65 * ticket * (spectators//2) * performances) # Dělení používáme beze zbytku //, protože pokud celkový počet není sudý, můžeme získat pulku osoby, a to není správné.
 print(f"Spolu se slevou pro studenty byly měsíční výdělky divadla: {total} eur")   # pokud použijeme vložení {...} uprostřed řádku, pak by před uvozovkami mělo být f v poslušném pořadí
 
+#----------------------------------Cvičení 2 Hrátky s řetězci-------------------------------------------
 print('Národní divadlo')
-print('Národní ' + 'divadlo')
 print('Národní ' + 'divadlo')
 print('Národní divadlo ' * 3)
 result = '1' * 256 + '0' * 256
 print(result)
 
-
+#----------------------------------Cvičení 3 Shannonovo číslo
 shannon_number = 10 ** 123
 print(str(shannon_number))   #1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 print(f'{shannon_number:,}') #1,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000
+print('{:,}'.format(shannon_number))
+#Oba přístupy mají své výhody a lze je použít v závislosti na kontextu a preferencích. Ve většině případů jsou f-řetězce modernější a čitelnější syntaxí pro formátování řetězců v Pythonu.
