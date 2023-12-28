@@ -69,3 +69,29 @@ celkova_castka = (cena_vstupenky * dospely) + (dite * (cena_vstupenky * (1 - sle
 print(f'Divadelní zisk na představení {nazev_predstaveni} je: {celkova_castka} kč')
 
 print(f'Z důvodu příchodu 2 nových sboristů budou měsíční náklady {(velikost_souboru + 2) * mzda} kč')
+
+#--------------------------------------------------Úlohy na doma Celočíselné dělení a dělení se zbytkem ----------------------------
+a = 72
+b = 1024
+cele = b // a
+print(f'{cele} krat vejde číslo 72 do 1024')
+
+zbytek = b % a
+print(f'bytek po dělení čísla 1024 číslem 72 je {zbytek}')
+
+
+predstava = 'Smrt v přímém přenosu'
+delka = 265
+hodin = delka // 60
+minut = delka % 60
+print(f'představení {predstava} trva {hodin} hod., {minut} min.')
+
+
+#--------------------------------------------------Úlohy na doma Sedačky v sále------------------------------------------------
+celkem_sedacek = 350
+sedacek_v_rade = 32
+zbytek = celkem_sedacek % sedacek_v_rade
+dokupit = sedacek_v_rade - zbytek
+rad = (celkem_sedacek + dokupit) // sedacek_v_rade
+print(f'{dokupit} sedaček musíme přikoupit aby všechny řady byly úplné')
+print(f'celkovy pocet rad je: {rad}')
