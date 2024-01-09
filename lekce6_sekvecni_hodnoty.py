@@ -11,6 +11,27 @@ print(uzivatele[1] [2]) #r
 body = [[140, 120], [60, 92], [34, 68]]
 print(body[2]) #[34, 68]
 print(body[2][0]) #34
+
+jmeno = 'Hubert'
+
+# indexujeme zleva od nuly
+print(jmeno[2])
+print(jmeno[4])
+print(jmeno[0])
+
+# zprava pomocí záporných od -1
+print(jmeno[-1])
+print(jmeno[-2])
+# prvni tři hodnoty
+print(jmeno[:3])
+# poslední tři hodnoty
+print(jmeno[-3:])
+
+# do cisla indexovat nelze
+# musíme si ho napřed převést na text
+cislo = 1597862
+cislo_text = str(cislo)
+print(cislo_text[-4])
 '''
 #--------------------------------------------Cvičení 1 Řetězce jako sekvence-----------------------------------------------------
 name = 'Oleksii'
