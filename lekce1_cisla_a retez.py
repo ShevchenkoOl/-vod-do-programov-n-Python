@@ -43,7 +43,8 @@ print('martin' + ' ' + 'podloucký') # martin podloucký
 print('bla ' * 10)                  # bla bla bla bla bla bla bla bla bla bla 
 
 #----------------------------------Cvičení 1 Jednoduchá aritmetika----------------------------------
-
+print(12*174*15)
+#--------------------Variant 2
 ticket = 12
 spectators = 174
 performances = 15
