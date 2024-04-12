@@ -37,8 +37,7 @@ Welcome to the repository "Úvod do programování: Python"! This repository pro
 
 3. Open files and study the provided code examples.
 
-## Support
-
+## Author
+This repository was created and maintained by [Oleksii Shevchenko](https://shevchenkool.github.io/portfolio/). Questions, suggestions and feedback can be directed to [email](uzlabini@gmail.com) or [linkedin profile](linkedin.com/in/oleksii-shevchenko-535ab61b8).
 If you have any questions or suggestions, feel free to create an issue or submit a pull request.
-
 **Best of luck with learning Python!**
