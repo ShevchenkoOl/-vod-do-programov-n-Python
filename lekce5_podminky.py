@@ -32,12 +32,12 @@ else:
 '''
 
 #---------------------------------------------------Cvičení 1 Jednoduché podmínky ---------------------------------------------
-'''
+
 import getpass # Tento modul umožňuje zadat heslo bez jeho zobrazení v konzole
 
 jmeno = input('Zadejte své jméno: ')
-heslo = getpass.getpass('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
-
+heslo = input('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
+# heslo = getpass.getpass('Zadejte heslo: ')
 if  heslo.lower() != 'simsalabim': # .lower() - metoda, která umožňuje převést řetězec na malá písmena a .upper() - velká
     print('Vstup nepovolen')
     exit()
@@ -49,59 +49,58 @@ else:
     else:
         print('Vstup povolen od 18 let')
     exit()
-   '''
+   
 #---------------------------------------------------Cvičení 2 Cena vstupenky --------------------------------------------------------------
-'''
-print('Divadlo Pěst na oko')
-print('Vítejte v online rezervaci vstupenek')
-age = input('Zadejte své vek: ')
-age = int(age)
-plna_cena = 12
 
-if age < 6:
-    cena = 0
-    print(f'Cena vstupenky {cena} Kč')
-elif age <= 26:  # nebo 6 <= age <= 26
-    cena = round(plna_cena * 0.65)
-    print(f'Jste žák nebo student. Cena vstupenky {cena} Kč')
-elif age <= 64: 
-    cena = plna_cena
-    print(f'Jste dospělý. Cena vstupenky {cena} Kč')
-else:
-    cena = round(plna_cena * 0.5)
-    print(f'Jste senior. Cena vstupenky {cena} Kč')
-'''
+# print('Divadlo Pěst na oko')
+# print('Vítejte v online rezervaci vstupenek')
+# age = input('Zadejte své vek: ')
+# age = int(age)
+# plna_cena = 12
+
+# if age < 6:
+#     cena = 0
+#     print(f'Cena vstupenky {cena} Kč')
+# elif age <= 26:  # nebo 6 <= age <= 26
+#     cena = round(plna_cena * 0.65)
+#     print(f'Jste žák nebo student. Cena vstupenky {cena} Kč')
+# elif age <= 64: 
+#     cena = plna_cena
+#     print(f'Jste dospělý. Cena vstupenky {cena} Kč')
+# else:
+#     cena = round(plna_cena * 0.5)
+#     print(f'Jste senior. Cena vstupenky {cena} Kč')
+
 #---------------------------------------------------Cvičení 3 Registrace --------------------------------------------------------
-'''
-jmeno = input('Zadejte své jméno: ')
-heslo1 = input('Zadejte heslo: ')
-heslo1 = str(heslo1)
-heslo2 = input('Zopakujte prosím své heslo: ')
-heslo2 = str(heslo2)
-if  heslo1 != heslo2:
-    print('Omlouváme se, vstup nepovolen, zadal jste jiná hesla')
-    exit()
-elif len(heslo1) < 8:
-     print('Vaše heslo není bezpečné, zkuste to prosím znovu')
-else:
-    print(f'{jmeno}, gratulujeme k úspěšné registraci')
-'''    
+
+# jmeno = input('Zadejte své jméno: ')
+# heslo1 = input('Zadejte heslo: ')
+# heslo1 = str(heslo1)
+# heslo2 = input('Zopakujte prosím své heslo: ')
+# heslo2 = str(heslo2)
+# if  heslo1 != heslo2:
+#     print('Omlouváme se, vstup nepovolen, zadal jste jiná hesla')
+#     exit()
+# elif len(heslo1) < 8:
+#      print('Vaše heslo není bezpečné, zkuste to prosím znovu')
+# else:
+#     print(f'{jmeno}, gratulujeme k úspěšné registraci')   
 
 #---------------------------------------------------Cvičení 4 Přestupný rok -----------------------------------------------------
-'''
-rok = input('Zadejte prosím rok, který chcete zkontrolovat: ')
-rok = int(rok)
-if rok % 4 == 0:
-    if rok % 100 == 0:
-        if rok % 400 == 0:
-            print('Rok je přestupný')
-        else:
-            print('Rok není přestupný')
-    else:
-        print('Rok je přestupný')
-else:
-    print('Rok není přestupný')
-'''
+
+# rok = input('Zadejte prosím rok, který chcete zkontrolovat: ')
+# rok = int(rok)
+# if rok % 4 == 0:
+#     if rok % 100 == 0:
+#         if rok % 400 == 0:
+#             print('Rok je přestupný')
+#         else:
+#             print('Rok není přestupný')
+#     else:
+#         print('Rok je přestupný')
+# else:
+#     print('Rok není přestupný')
+
 #---------------------------------------------------Čtení na doma: Vícenásobné podmínky---------------------------------------------
 #------------------------------------------------------Dělitelnost více čísly-------------------------------------------------------
 '''
