@@ -56,9 +56,9 @@ heslo = 'czechitas'
 # else:
 #     print('Vstup zamítnut')
     
-req_random1 = random.randint(1, len(heslo)+1)
-req_random2 = random.randint(1, len(heslo)+1)
-req_random3 = random.randint(1, len(heslo)+1)  # req_positions = random.sample(range(1, len(heslo) + 1), 3) - Tato funkce umožňuje získat tři náhodná čísla od 1 do len(heslo) + 1)
+req_random1 = random.randint(1, len(heslo))
+req_random2 = random.randint(1, len(heslo))
+req_random3 = random.randint(1, len(heslo))  # req_positions = random.sample(range(1, len(heslo)), 3) - Tato funkce umožňuje získat tři náhodná čísla od 1 do len(heslo))
 symbol1 = input(f'Zadej {req_random1} znak hesla: ')
 symbol2 = input(f'Zadej {req_random2} znak hesla: ')
 symbol3 = input(f'Zadej {req_random3} znak hesla: ')

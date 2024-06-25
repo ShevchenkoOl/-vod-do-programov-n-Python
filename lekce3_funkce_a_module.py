@@ -23,7 +23,7 @@ import random  # Při použití modulu jej nejprve importujeme z interní knihov
 # eur = 24
 # vstupenka_student = 0.65 * 12
 # koruny = round(vstupenka_student * eur)
-# print(f'studentské vstupné činí {koruny} kč') # 187 kč
+# print(f'studentské vstupné činí {koruny} kč') # 187 kč 
 
 # #-------------------------------Cvičení 3 Zaokrouhlování nahoru--------------------------------
 # print(f'cena za vstupenky zaokrouhlování na horu bude: {math.ceil(vstupenka_student * eur)} kč') # 188 kč

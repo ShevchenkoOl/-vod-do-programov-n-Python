@@ -7,15 +7,15 @@
 # print(cena_zakazky) #Vytiskne stale stejnou hodnotu. Python totiž provádí příkazy řádek po řádku a vždy pracuje s hodnotou, která je v proměnné aktuálně uložená.
 
 # #---------------------------------------------Cvičení 1 Základní aritmetické operace-------------------
-# a = 15
-# b = 3.14
+a = 15
+b = 3.14
 
-# soucet = a + b
-# print(f'Součet a + b: {soucet}')
-# print("soucet:" + str(soucet))
-
-# soucin = a * b
-# print(f'Součin a * b: {soucin}')
+soucet = a + b
+print(soucet)
+print(f'Součet a + b: {soucet}')
+print("soucet:" + str(soucet))
+soucin = a * b
+print(f'Součin a * b: {soucin}')
 
 # zbytek = a % b
 # print(f'Zbytek po dělení a % b: {zbytek}')
@@ -39,17 +39,17 @@
 
 # #---------------------------------------------Cvičení 3 Plánování svatby---------------------
 
-cena_dospely = 990
-cena_dite = cena_dospely * 0.5
-celkovy_pocet_dospely = 60
-celkovy_pocet_dite = 8
-naklady = (cena_dospely * celkovy_pocet_dospely) + (cena_dite * celkovy_pocet_dite)
-print(naklady)
+# cena_dospely = 990
+# cena_dite = cena_dospely * 0.5
+# celkovy_pocet_dospely = 60
+# celkovy_pocet_dite = 8
+# naklady = (cena_dospely * celkovy_pocet_dospely) + (cena_dite * celkovy_pocet_dite)
+# print(naklady)
 
-nova_cena_dospely = 1000
-nava_cena_dite = nova_cena_dospely * 0.5
-nove_naklady = (nova_cena_dospely * celkovy_pocet_dospely) + (nava_cena_dite * celkovy_pocet_dite)
-print(f'Po úpravě ceny pro dospělou osobu budou náklady na svatbu: {nove_naklady} kč')
+# nova_cena_dospely = 1000
+# nava_cena_dite = nova_cena_dospely * 0.5
+# nove_naklady = (nova_cena_dospely * celkovy_pocet_dospely) + (nava_cena_dite * celkovy_pocet_dite)
+# print(f'Po úpravě ceny pro dospělou osobu budou náklady na svatbu: {nove_naklady} kč')
 
 # #--------------------------------------------------Úlohy na doma  Hrátky s proměnnými -------------
 # holky = 15

@@ -36,8 +36,8 @@ else:
 import getpass # Tento modul umožňuje zadat heslo bez jeho zobrazení v konzole
 
 jmeno = input('Zadejte své jméno: ')
-heslo = input('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
-# heslo = getpass.getpass('Zadejte heslo: ')
+# heslo = input('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
+heslo = getpass.getpass('Zadejte heslo: ')
 if  heslo.lower() != 'simsalabim': # .lower() - metoda, která umožňuje převést řetězec na malá písmena a .upper() - velká
     print('Vstup nepovolen')
     exit()
