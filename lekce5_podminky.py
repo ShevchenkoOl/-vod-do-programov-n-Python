@@ -33,22 +33,23 @@ else:
 
 #---------------------------------------------------Cvičení 1 Jednoduché podmínky ---------------------------------------------
 
-import getpass # Tento modul umožňuje zadat heslo bez jeho zobrazení v konzole
+# import getpass # Tento modul umožňuje zadat heslo bez jeho zobrazení v konzole
 
-jmeno = input('Zadejte své jméno: ')
-# heslo = input('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
-heslo = getpass.getpass('Zadejte heslo: ')
-if  heslo.lower() != 'simsalabim': # .lower() - metoda, která umožňuje převést řetězec na malá písmena a .upper() - velká
-    print('Vstup nepovolen')
-    exit()
-else: 
-    age = input('Zadejte prosím svůj věk: ')
-    age = int(age)
-    if  age >= 18:
-        print('Uživateli ' + jmeno + ' vstup povolen')
-    else:
-        print('Vstup povolen od 18 let')
-    exit()
+# jmeno = input('Zadejte své jméno: ')
+# # heslo = input('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
+# heslo = getpass.getpass('Zadejte heslo: ')
+# # heslo = input('Zadejte heslo: ')
+# if  heslo.lower() != 'simsalabim': # .lower() - metoda, která umožňuje převést řetězec na malá písmena a .upper() - velká
+#     print('Vstup nepovolen')
+#     exit()
+# else: 
+#     age = input('Zadejte prosím svůj věk: ')
+#     age = int(age)
+#     if  age >= 18:
+#         print('Uživateli ' + jmeno + ' vstup povolen')
+#     else:
+#         print('Vstup povolen od 18 let')
+#     exit()
    
 #---------------------------------------------------Cvičení 2 Cena vstupenky --------------------------------------------------------------
 

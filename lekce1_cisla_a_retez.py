@@ -63,6 +63,7 @@ zbytek po dělení: %        vzít zbytek dělení 7 / 2, abyste dostali celé �
 # print('Národní divadlo ' * 3)
 # result = '1' * 256 + '0' * 256
 # print(result)
+# print('1' * 256 + '0' * 256)
 
 #----------------------------------Cvičení 3 Shannonovo číslo
 # shannon_number = 10 ** 123

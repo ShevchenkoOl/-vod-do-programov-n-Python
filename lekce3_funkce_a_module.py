@@ -5,11 +5,11 @@
 # jmeno = 'Theodor Holohlávek'
 # delka_jmena = len(jmeno) # 18
 
-import math # Při použití modulu jej nejprve importujeme z interní knihovny
+# import math # Při použití modulu jej nejprve importujeme z interní knihovny
 # zaokrouhlene_horu = math.ceil(cislo) # 4
 # zaokrouhlene_dolu = math.floor(cislo) # 3
 
-import random  # Při použití modulu jej nejprve importujeme z interní knihovny
+# import random  # Při použití modulu jej nejprve importujeme z interní knihovny
 # nahodne_cislo = random.randint(1, 6) # výsledkem bude libovolné celé číslo od 1 do 6
 # nahodne_cislo_s_desitnou = random.uniform(0, 1) # výsledkem bude libovolné zlomkové číslo od 0 do 1, například  0.8019414964167082
 # nahodne_cislo_s_sotinou = round(random.uniform(0, 1), 2) # výsledkem bude libovolné zlomkové číslo od 0 do 1 se dvěma čislamy po čarký například  0.14
@@ -17,20 +17,25 @@ import random  # Při použití modulu jej nejprve importujeme z interní knihov
 #-------------------------------Cvičení 1 Délka názvu ----------------------------------------------- 
 # nazev = "Divadlo Pěst na oko"
 # delka_napisu = len(nazev) * 30
+# print(delka_napisu)
 # print(f'délku nápisu {nazev} je {delka_napisu} cm') # 570 cm
 
 #-------------------------------Cvičení 2 Zaokrouhlování --------------------------------------------------------
-# eur = 24
-# vstupenka_student = 0.65 * 12
+eur = 24
+vstupenka_student = 0.65 * 12
 # koruny = round(vstupenka_student * eur)
+# print(koruny)
 # print(f'studentské vstupné činí {koruny} kč') # 187 kč 
 
 # #-------------------------------Cvičení 3 Zaokrouhlování nahoru--------------------------------
+import math
+# zaokruhlovani_na_horu = math.ceil(13.2)
+# print(math.ceil(vstupenka_student))
 # print(f'cena za vstupenky zaokrouhlování na horu bude: {math.ceil(vstupenka_student * eur)} kč') # 188 kč
 
 #-------------------------------Cvičení 4 Náhodná čísla--------------------------------------------------------
-nahodne_cislo = random.randint(1, 24) # napriklad 18
-print(nahodne_cislo)
+# nahodne_cislo = random.randint(1, 24) # napriklad 18
+# print(nahodne_cislo)
 
 #-----------------------------------Cvičení na doma Klasické zaokrouhlování----------------------------------------
 # zaokrouhlene_cislo = round(3.5) # 4 (3,5 se zaokrouhlí na nejbližší sudé číslo, takže výsledek je 4.)

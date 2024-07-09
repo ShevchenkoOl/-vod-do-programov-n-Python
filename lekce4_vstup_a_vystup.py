@@ -11,7 +11,8 @@ print(f"cena je: {cena} korun")
 
 # nazev = 'Divadlo Pěst na oko'
 # # cas = '19:30'
-# # print(f'Představení {nazev} zacina v {cas}')
+# # print(nazev + " " + cas)
+# # # print(f'Představení {nazev} zacina v {cas}')
 # hod = 19
 # min = 30
 # print(f'Představení {nazev} zacina v {hod}:{min}')
@@ -20,20 +21,20 @@ print(f"cena je: {cena} korun")
 
 # name = input('Zadejte své jméno: ')
 # surname = input('Zadejte své příjmení: ')
-# #print(f'Hello, {name} {surname}')
-# age = input('Zadejte své vek: ')
-# age = int(age)
+# print(f'Hello, {name} {surname}')
+# age = int(input('Zadejte své vek: '))
+# # age = int(age)
 # print(f"Uživatel: {name} {surname} ma {age} let")
 
 #----------------------------------------Cvičení 3 Zakázka pro divadlo ----------------------------------------
-print('Divadlo Pěst na oko')
-print('Vítejte v online rezervaci vstupenek')
-print('Pro vstup do systému je potřeba registrace')
-jmeno = input('Zadejte své jméno: ')
-prijmeni = input('Zadejte své příjmení: ')
-age = input('Zadejte své vek: ')
-age = int(age)
-print(f"Uživatel: {jmeno} {prijmeni} ma {age} let")
+# print('Divadlo Pěst na oko')
+# print('Vítejte v online rezervaci vstupenek')
+# print('Pro vstup do systému je potřeba registrace')
+# jmeno = input('Zadejte své jméno: ')
+# prijmeni = input('Zadejte své příjmení: ')
+# age = int(input('Zadejte své vek: '))
+# # age = int(age)
+# print(f"Uživatel: {jmeno} {prijmeni} ma {age} let")
 
 
 #----------------------------------------Cvičení 4 Házení kostkami ---------------------------------------------
