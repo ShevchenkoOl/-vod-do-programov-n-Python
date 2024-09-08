@@ -17,23 +17,26 @@
 #-------------------------------Cvičení 1 Délka názvu ----------------------------------------------- 
 # nazev = "Divadlo Pěst na oko"
 # delka_napisu = len(nazev) * 30
-# print(delka_napisu)
-# print(f'délku nápisu {nazev} je {delka_napisu} cm') # 570 cm
+# print('délku nápisu', nazev, 'je', delka_napisu, 'cm') # 570 cm
 
 #-------------------------------Cvičení 2 Zaokrouhlování --------------------------------------------------------
 eur = 24
 vstupenka_student = 0.65 * 12
 # koruny = round(vstupenka_student * eur)
-# print(koruny)
+# print('studentské vstupné činí', koruny, 'kč') # 187 kč 
 # print(f'studentské vstupné činí {koruny} kč') # 187 kč 
 
 # #-------------------------------Cvičení 3 Zaokrouhlování nahoru--------------------------------
 import math
+eur = 24
+vstupenka_student = 0.65 * 12
 # zaokruhlovani_na_horu = math.ceil(13.2)
 # print(math.ceil(vstupenka_student))
+# print('cena za vstupenky zaokrouhlování na horu bude:', math.ceil(vstupenka_student * eur), 'kč') # 188 kč
 # print(f'cena za vstupenky zaokrouhlování na horu bude: {math.ceil(vstupenka_student * eur)} kč') # 188 kč
 
 #-------------------------------Cvičení 4 Náhodná čísla--------------------------------------------------------
+# import random
 # nahodne_cislo = random.randint(1, 24) # napriklad 18
 # print(nahodne_cislo)
 

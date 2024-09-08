@@ -20,6 +20,8 @@ mocnění: **                возводит в степень 2 ** 3 (2 в 3 �
 celočíselné dělení: //     делит числа без остатка 7 // 2 = 3
 zbytek po dělení: %        vzít zbytek dělení 7 / 2, abyste dostali celé číslo 3 a zbyde nám 1 (2*3=6 7-6=1)
 
+print(f'studentské vstupné činí {koruny} kč') - F-řetězce (formátované řetězce) umožňují vložit hodnoty proměnných přímo do řetězce bude to na lekce 4
+print("Divadlo Pěst na oko \n",  "Vítejte v online rezervaci vstupenek \n", "Pro vstup do systému je potřeba registrace \n")
 '''
 # print("Hello, World!")
 # print(12 * 13 + 10)
@@ -40,12 +42,23 @@ zbytek po dělení: %        vzít zbytek dělení 7 / 2, abyste dostali celé �
 # a = '12. března 2018'
 # print(a)       
 # print('martin' + ' ' + 'podloucký') # martin podloucký 
-# print('bla ' * 10)                  # bla bla bla bla bla bla bla bla bla bla 
+# print('bla ' * 10)                  # bla bla bla bla bla bla bla bla bla bla
+# print('bla\10' * 10)                # bla
+                                      # bla
+                                      # bla 
+                                      # bla 
+                                      # bla
+                                      # bla
+                                      # bla
+                                      # bla
+                                      # bla
+                                      # bla
+
 
 #----------------------------------Cvičení 1 Jednoduchá aritmetika----------------------------------
-# print(12*174*15) # plna cena
-# print((12*0.65)*(174//2)*15) # cena se slevou
-# print((12*(174//2)*15)-((12*0.65)*(174//2)*15)) # rozdil cen
+print(12*174*15) # plna cena
+print((12*0.65)*(174//2)*15) # cena se slevou
+print((12*(174//2)*15)-((12*0.65)*(174//2)*15)) # rozdil cen
 
 #--------------------Variant 2
 # ticket = 12
@@ -53,7 +66,7 @@ zbytek po dělení: %        vzít zbytek dělení 7 / 2, abyste dostali celé �
 # performances = 15
 # print('měsíční příjem divadla ze vstupného přichází je ' + str(ticket * spectators * performances) + ' eur') # Funkce str() se používá k převodu čísla na řetězec před zřetězením
 
-# pokud víme, že polovina návštěvníků jsou studentky a studenti
+# #pokud víme, že polovina návštěvníků jsou studentky a studenti
 # total = (ticket * (spectators//2) * performances) + (0.65 * ticket * (spectators//2) * performances) # Dělení používáme beze zbytku //, protože pokud celkový počet není sudý, můžeme získat pulku osoby, a to není správné.
 # print(f"Spolu se slevou pro studenty byly měsíční výdělky divadla: {total} eur")   # pokud použijeme vložení {...} uprostřed řádku, pak by před uvozovkami mělo být f v poslušném pořadí
 
@@ -66,10 +79,12 @@ zbytek po dělení: %        vzít zbytek dělení 7 / 2, abyste dostali celé �
 # print('1' * 256 + '0' * 256)
 
 #----------------------------------Cvičení 3 Shannonovo číslo
-# shannon_number = 10 ** 123
-#print(str(shannon_number))   #1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-# print("1" + "0" * 120)
-# print("1" + "000 " * 40)
+shannon_number = 10 ** 123
+print("1" + "0" * 120)
+print("1" + "000 " * 40)
+
+# --------------------Variant 2
+# print(str(shannon_number))   #1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 #print(f'{shannon_number:,}') #1,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000
 #print('{:,}'.format(shannon_number))
 #Oba přístupy mají své výhody a lze je použít v závislosti na kontextu a preferencích. Ve většině případů jsou f-řetězce modernější a čitelnější syntaxí pro formátování řetězců v Pythonu.

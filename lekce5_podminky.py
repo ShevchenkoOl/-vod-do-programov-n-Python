@@ -33,23 +33,23 @@ else:
 
 #---------------------------------------------------Cvičení 1 Jednoduché podmínky ---------------------------------------------
 
-# import getpass # Tento modul umožňuje zadat heslo bez jeho zobrazení v konzole
+import getpass # Tento modul umožňuje zadat heslo bez jeho zobrazení v konzole
 
-# jmeno = input('Zadejte své jméno: ')
-# # heslo = input('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
-# heslo = getpass.getpass('Zadejte heslo: ')
-# # heslo = input('Zadejte heslo: ')
-# if  heslo.lower() != 'simsalabim': # .lower() - metoda, která umožňuje převést řetězec na malá písmena a .upper() - velká
-#     print('Vstup nepovolen')
-#     exit()
-# else: 
-#     age = input('Zadejte prosím svůj věk: ')
-#     age = int(age)
-#     if  age >= 18:
-#         print('Uživateli ' + jmeno + ' vstup povolen')
-#     else:
-#         print('Vstup povolen od 18 let')
-#     exit()
+jmeno = input('Zadejte své jméno: ')
+# heslo = input('Zadejte heslo: ') #getpass.getpass() vrací řetězec a zde není vyžadována žádná další konverze na řetězec (heslo = str(heslo))
+heslo = getpass.getpass('Zadejte heslo: ')
+# heslo = input('Zadejte heslo: ')
+if  heslo != 'simsalabim': # .lower() - metoda, která umožňuje převést řetězec na malá písmena a .upper() - velká
+    print('Vstup nepovolen')
+    exit()
+else: 
+    age = int(input('Zadejte prosím svůj věk: '))
+    if  age >= 18:
+        print('Uživatel ' + jmeno + ' vstup povolen')
+        print(f'Uživatel {jmeno} vstup povolen')
+    else:
+        print('Vstup povolen od 18 let')
+    exit()
    
 #---------------------------------------------------Cvičení 2 Cena vstupenky --------------------------------------------------------------
 
@@ -74,18 +74,18 @@ else:
 
 #---------------------------------------------------Cvičení 3 Registrace --------------------------------------------------------
 
-# jmeno = input('Zadejte své jméno: ')
-# heslo1 = input('Zadejte heslo: ')
-# heslo1 = str(heslo1)
-# heslo2 = input('Zopakujte prosím své heslo: ')
-# heslo2 = str(heslo2)
-# if  heslo1 != heslo2:
-#     print('Omlouváme se, vstup nepovolen, zadal jste jiná hesla')
-#     exit()
-# elif len(heslo1) < 8:
-#      print('Vaše heslo není bezpečné, zkuste to prosím znovu')
-# else:
-#     print(f'{jmeno}, gratulujeme k úspěšné registraci')   
+jmeno = input('Zadejte své jméno: ')
+heslo1 = input('Zadejte heslo: ')
+heslo1 = str(heslo1)
+heslo2 = input('Zopakujte prosím své heslo: ')
+heslo2 = str(heslo2)
+if  heslo1 != heslo2:
+    print('Omlouváme se, vstup nepovolen, zadal jste jiná hesla')
+    exit()
+elif len(heslo1) < 8:
+     print('Vaše heslo není bezpečné, zkuste to prosím znovu')
+else:
+    print(f'{jmeno}, gratulujeme k úspěšné registraci')   
 
 #---------------------------------------------------Cvičení 4 Přestupný rok -----------------------------------------------------
 

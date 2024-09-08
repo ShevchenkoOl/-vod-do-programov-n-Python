@@ -7,21 +7,26 @@
 # print(cena_zakazky) #Vytiskne stale stejnou hodnotu. Python totiž provádí příkazy řádek po řádku a vždy pracuje s hodnotou, která je v proměnné aktuálně uložená.
 
 # #---------------------------------------------Cvičení 1 Základní aritmetické operace-------------------
-a = 15
-b = 3.14
+# a = 15
+# b = 3.14
 
-soucet = a + b
-print(soucet)
-print(f'Součet a + b: {soucet}')
-print("soucet:" + str(soucet))
-soucin = a * b
-print(f'Součin a * b: {soucin}')
+# soucet = a + b
+# print('Součet a + b:', soucet)
+# # print(soucet)
+# # print(f'Součet a + b: {soucet}')
+# # print('soucet:' + str(soucet))
+
+# soucin = a * b
+# print('Součin a * b:', soucin)
+# # print(f'Součin a * b: {soucin}')
 
 # zbytek = a % b
-# print(f'Zbytek po dělení a % b: {zbytek}')
+# print('Zbytek po dělení a % b:', zbytek )
+# # print(f'Zbytek po dělení a % b: {zbytek}')
 
 # cele = a // b
-# print(f'Celočíselné dělení a // b: {cele}')
+# print('Celočíselné dělení a // b:', cele)
+# # print(f'Celočíselné dělení a // b: {cele}')
 
 # #---------------------------------------------Cvičení 2 Antikvariát---------------------
 
@@ -31,10 +36,10 @@ print(f'Součin a * b: {soucin}')
 # nova_cena_za_kus = cena_za_kus * (1 - sleva)
 
 # # Výpis informací
-# print(f"Název antikvariátu: {nazev_antikvariatu}")
-# print(f"Cena za jeden titul před slevou: {cena_za_kus} Kč")
-# print(f"Sleva: {sleva * 100}%")
-# print(f"Nová cena za jeden titul po slevě: {nova_cena_za_kus} Kč")
+# print("Název antikvariátu:", nazev_antikvariatu)
+# print("Cena za jeden titul před slevou:", cena_za_kus, "Kč")
+# print("Sleva:", sleva * 100, "%")
+# print("Nová cena za jeden titul po slevě:", nova_cena_za_kus, "Kč")
 
 
 # #---------------------------------------------Cvičení 3 Plánování svatby---------------------
@@ -47,9 +52,9 @@ print(f'Součin a * b: {soucin}')
 # print(naklady)
 
 # nova_cena_dospely = 1000
-# nava_cena_dite = nova_cena_dospely * 0.5
-# nove_naklady = (nova_cena_dospely * celkovy_pocet_dospely) + (nava_cena_dite * celkovy_pocet_dite)
-# print(f'Po úpravě ceny pro dospělou osobu budou náklady na svatbu: {nove_naklady} kč')
+# nova_cena_dite = nova_cena_dospely * 0.5
+# nove_naklady = (nova_cena_dospely * celkovy_pocet_dospely) + (nova_cena_dite * celkovy_pocet_dite)
+# print('Po úpravě ceny pro dospělou osobu budou náklady na svatbu:', nove_naklady, 'kč')
 
 # #--------------------------------------------------Úlohy na doma  Hrátky s proměnnými -------------
 # holky = 15

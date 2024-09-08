@@ -19,12 +19,14 @@ print(f"cena je: {cena} korun")
 
 #----------------------------------------Cvičení 2 Jednoduchý vstup ------------------------------------------
 
-# name = input('Zadejte své jméno: ')
-# surname = input('Zadejte své příjmení: ')
-# print(f'Hello, {name} {surname}')
-# age = int(input('Zadejte své vek: '))
-# # age = int(age)
-# print(f"Uživatel: {name} {surname} ma {age} let")
+name = input('Zadejte své jméno: ')
+surname = input('Zadejte své příjmení: ')
+print(f'Hello, {name} {surname}')
+age = int(input('Zadejte své vek: '))
+# age = int(age)
+print(f"Uživatel: {name} {surname} ma {age} let")
+
+
 
 #----------------------------------------Cvičení 3 Zakázka pro divadlo ----------------------------------------
 # print('Divadlo Pěst na oko')
@@ -38,8 +40,10 @@ print(f"cena je: {cena} korun")
 
 
 #----------------------------------------Cvičení 4 Házení kostkami ---------------------------------------------
-# import random
-# print(random.randint(1, 6))
+import random
+print(random.randint(1, 6))
+
+print("Divadlo Pěst na oko \n",  "Vítejte v online rezervaci vstupenek \n", "Pro vstup do systému je potřeba registrace \n")
 
 #----------------------------------------Cvičení 5 Generátor čísel ----------------------------------------------
 # print('Program vytváří náhodné číslo ve vámi určeném intervalu')
@@ -48,6 +52,7 @@ print(f"cena je: {cena} korun")
 # number2 = input('zadejte druhé číslo: ')
 # number2 = int(number2)
 # print(f'Náhodné číslo v intervalu od {number1} do {number2} bude: {random.randint(number1, number2)}')
+# print('Náhodné číslo v intervalu od', number1, 'do', number2, 'bude:', random.randint(number1, number2))
 
 #------------------------------------------Čtení na doma-----------------------------------------------------------
 # cena = 25

@@ -37,6 +37,9 @@ print(cislo_text[-4])
 # name = 'Oleksii'
 # print(name[3], name[5], name[6]) # k i i
 
+# name2 = ["Oleksii", "Shevchenko"]
+# print(name2[1], name2[0])
+
 #--------------------------------------------Cvičení 2 Seznamy------------------------------------------------------------------
 # pocet = [56, 78, 14, 23, 1, 41, 5]
 # # zaplnenost = [10.1, 1.2, 0.5, 14.5, 7.8]
@@ -45,27 +48,28 @@ print(cislo_text[-4])
 # print(druha_polozka)
 
 
-hodnoceni = [
-                ['The Times', 9], 
-                ['Economist', 7], 
-                ['Vecerka', 10], 
-                ['Seznam.cz', 5]
-            ]
-print(f"Divadelna hra Plyšáci na útěku, v různých časopisech: {hodnoceni}")
+# hodnoceni = [
+#                 ['The Times', 9], 
+#                 ['Economist', 7], 
+#                 ['Vecerka', 10], 
+#                 ['Seznam.cz', 5]
+#             ]
+# print(f"Divadelna hra Plyšáci na útěku, v různých časopisech: {hodnoceni}")
 
 #--------------------------------------------Cvičení 3 Ověřování hesla ----------------------------------------------------------
-import random
-heslo = 'czechitas'
+# import random
+# heslo = 'czechitas'
 
-symbol2 = input('Zadej 2. znak hesla: ')
-symbol5 = input('Zadej 5. znak hesla: ')
-symbol7 = input('Zadej 7. znak hesla: ')
+# symbol2 = input('Zadej 2. znak hesla: ')
+# symbol5 = input('Zadej 5. znak hesla: ')
+# symbol7 = input('Zadej 7. znak hesla: ')
 
-if (symbol2.lower() == heslo[1]) and (symbol5.lower() == heslo[4]) and (symbol7.lower() == heslo[6]):
-    print('Vstup povolen!')
-else:
-    print('Vstup zamítnut')
+# if (symbol2.lower() == heslo[1]) and (symbol5.lower() == heslo[4]) and (symbol7.lower() == heslo[6]):
+#     print('Vstup povolen!')
+# else:
+#     print('Vstup zamítnut')
     
+#--------------------Variant 2
 # req_random1 = random.randint(1, len(heslo))
 # req_random2 = random.randint(1, len(heslo))
 # req_random3 = random.randint(1, len(heslo))  # req_positions = random.sample(range(1, len(heslo)), 3) - Tato funkce umožňuje získat tři náhodná čísla od 1 do len(heslo))
