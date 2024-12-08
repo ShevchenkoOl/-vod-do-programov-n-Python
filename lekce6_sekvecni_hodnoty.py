@@ -76,9 +76,13 @@ print(cislo_text[-4])
 # symbol1 = input(f'Zadej {req_random1} znak hesla: ')
 # symbol2 = input(f'Zadej {req_random2} znak hesla: ')
 # symbol3 = input(f'Zadej {req_random3} znak hesla: ')
-# if (symbol1.lower() == heslo[req_random1-1]) and (symbol2.lower() == heslo[req_random2-1]) and (symbol3.lower() == heslo[req_random3-1]):
+# if (symbol1 == heslo[req_random1-1]) and (symbol2 == heslo[req_random2-1]) and (symbol3 == heslo[req_random3-1]):
 #     print('Vstup povolen!')
 # else:
 #     print('Vstup zamítnut')
     
 # Pro správnější kontrolu hesla můžeme kromě kontroly velikosti písmen přidat metodu pro odstranění nadbytečných mezer .strip() (symbol2.strip().lower())
+
+
+
+

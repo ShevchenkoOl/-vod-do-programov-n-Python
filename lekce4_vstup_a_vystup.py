@@ -9,22 +9,22 @@ print(f"cena je: {cena} korun")
 
 #----------------------------------------Cvičení 1 Jednoduchý výstup-----------------------------------------
 
-# nazev = 'Divadlo Pěst na oko'
-# # cas = '19:30'
-# # print(nazev + " " + cas)
-# # # print(f'Představení {nazev} zacina v {cas}')
+#nazev = 'Divadlo Pěst na oko'
+# cas = '19:30'
+# print(nazev + " " + cas)
+# print(f'Představení {nazev} zacina v {cas}')
 # hod = 19
 # min = 30
 # print(f'Představení {nazev} zacina v {hod}:{min}')
 
 #----------------------------------------Cvičení 2 Jednoduchý vstup ------------------------------------------
 
-name = input('Zadejte své jméno: ')
-surname = input('Zadejte své příjmení: ')
-print(f'Hello, {name} {surname}')
-age = int(input('Zadejte své vek: '))
-# age = int(age)
-print(f"Uživatel: {name} {surname} ma {age} let")
+# name = input('Zadejte své jméno: ')
+# surname = input('Zadejte své příjmení: ')
+# print(f'Hello, {name} {surname}')
+# age = int(input('Zadejte své vek: '))
+# # age = int(age)
+# print(f"Uživatel: {name} {surname} ma {age} let")
 
 
 
@@ -32,6 +32,7 @@ print(f"Uživatel: {name} {surname} ma {age} let")
 # print('Divadlo Pěst na oko')
 # print('Vítejte v online rezervaci vstupenek')
 # print('Pro vstup do systému je potřeba registrace')
+# print("Divadlo Pěst na oko \n", "Vítejte v online rezervaci vstupenek \n", "Pro vstup do systému je potřeba registrace \n")
 # jmeno = input('Zadejte své jméno: ')
 # prijmeni = input('Zadejte své příjmení: ')
 # age = int(input('Zadejte své vek: '))
@@ -40,10 +41,8 @@ print(f"Uživatel: {name} {surname} ma {age} let")
 
 
 #----------------------------------------Cvičení 4 Házení kostkami ---------------------------------------------
-import random
-print(random.randint(1, 6))
-
-print("Divadlo Pěst na oko \n",  "Vítejte v online rezervaci vstupenek \n", "Pro vstup do systému je potřeba registrace \n")
+# import random
+# print(random.randint(1, 6))
 
 #----------------------------------------Cvičení 5 Generátor čísel ----------------------------------------------
 # print('Program vytváří náhodné číslo ve vámi určeném intervalu')

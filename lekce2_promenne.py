@@ -7,14 +7,14 @@
 # print(cena_zakazky) #Vytiskne stale stejnou hodnotu. Python totiž provádí příkazy řádek po řádku a vždy pracuje s hodnotou, která je v proměnné aktuálně uložená.
 
 # #---------------------------------------------Cvičení 1 Základní aritmetické operace-------------------
-# a = 15
-# b = 3.14
+a = 15
+b = 3.14
 
-# soucet = a + b
-# print('Součet a + b:', soucet)
-# # print(soucet)
-# # print(f'Součet a + b: {soucet}')
-# # print('soucet:' + str(soucet))
+soucet = a + b
+print('Součet a + b:', soucet)
+# print(soucet)
+# print(f'Součet a + b: {soucet}')
+# print('soucet:' + str(soucet))
 
 # soucin = a * b
 # print('Součin a * b:', soucin)

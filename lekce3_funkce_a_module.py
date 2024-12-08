@@ -4,6 +4,7 @@
 
 # jmeno = 'Theodor Holohlávek'
 # delka_jmena = len(jmeno) # 18
+# jmeno_bez_mezer = jmeno.replace(" ", "") # TheodorHolohlávek
 
 # import math # Při použití modulu jej nejprve importujeme z interní knihovny
 # zaokrouhlene_horu = math.ceil(cislo) # 4
@@ -36,9 +37,9 @@ vstupenka_student = 0.65 * 12
 # print(f'cena za vstupenky zaokrouhlování na horu bude: {math.ceil(vstupenka_student * eur)} kč') # 188 kč
 
 #-------------------------------Cvičení 4 Náhodná čísla--------------------------------------------------------
-# import random
-# nahodne_cislo = random.randint(1, 24) # napriklad 18
-# print(nahodne_cislo)
+import random
+nahodne_cislo = random.randint(1, 24) # napriklad 18
+print(nahodne_cislo)
 
 #-----------------------------------Cvičení na doma Klasické zaokrouhlování----------------------------------------
 # zaokrouhlene_cislo = round(3.5) # 4 (3,5 se zaokrouhlí na nejbližší sudé číslo, takže výsledek je 4.)

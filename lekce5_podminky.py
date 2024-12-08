@@ -53,39 +53,39 @@ else:
    
 #---------------------------------------------------Cvičení 2 Cena vstupenky --------------------------------------------------------------
 
-# print('Divadlo Pěst na oko')
-# print('Vítejte v online rezervaci vstupenek')
-# age = input('Zadejte své vek: ')
-# age = int(age)
-# plna_cena = 12
+print('Divadlo Pěst na oko')
+print('Vítejte v online rezervaci vstupenek')
+age = input('Zadejte své vek: ')
+age = int(age)
+plna_cena = 12
 
-# if age < 6:
-#     cena = 0
-#     print(f'Cena vstupenky {cena} Kč')
-# elif age <= 26:  # nebo 6 <= age <= 26
-#     cena = round(plna_cena * 0.65)
-#     print(f'Jste žák nebo student. Cena vstupenky {cena} Kč')
-# elif age <= 64: 
-#     cena = plna_cena
-#     print(f'Jste dospělý. Cena vstupenky {cena} Kč')
-# else:
-#     cena = round(plna_cena * 0.5)
-#     print(f'Jste senior. Cena vstupenky {cena} Kč')
+if age < 6:
+    cena = 0
+    print(f'Cena vstupenky {cena} Kč')
+elif age <= 26:  # nebo 6 <= age <= 26
+    cena = round(plna_cena * 0.65)
+    print(f'Jste žák nebo student. Cena vstupenky {cena} Kč')
+elif age <= 64: 
+    cena = plna_cena
+    print(f'Jste dospělý. Cena vstupenky {cena} Kč')
+else:
+    cena = round(plna_cena * 0.5)
+    print(f'Jste senior. Cena vstupenky {cena} Kč')
 
 #---------------------------------------------------Cvičení 3 Registrace --------------------------------------------------------
 
-jmeno = input('Zadejte své jméno: ')
-heslo1 = input('Zadejte heslo: ')
-heslo1 = str(heslo1)
-heslo2 = input('Zopakujte prosím své heslo: ')
-heslo2 = str(heslo2)
-if  heslo1 != heslo2:
-    print('Omlouváme se, vstup nepovolen, zadal jste jiná hesla')
-    exit()
-elif len(heslo1) < 8:
-     print('Vaše heslo není bezpečné, zkuste to prosím znovu')
-else:
-    print(f'{jmeno}, gratulujeme k úspěšné registraci')   
+# jmeno = input('Zadejte své jméno: ')
+# heslo1 = input('Zadejte heslo: ')
+# heslo1 = str(heslo1)
+# heslo2 = input('Zopakujte prosím své heslo: ')
+# heslo2 = str(heslo2)
+# if  heslo1 != heslo2:
+#     print('Omlouváme se, vstup nepovolen, zadal jste jiná hesla')
+#     exit()
+# elif len(heslo1) < 8:
+#      print('Vaše heslo není bezpečné, zkuste to prosím znovu')
+# else:
+#     print(f'{jmeno}, gratulujeme k úspěšné registraci')   
 
 #---------------------------------------------------Cvičení 4 Přestupný rok -----------------------------------------------------
 

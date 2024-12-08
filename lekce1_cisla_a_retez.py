@@ -3,6 +3,7 @@ Základní příkazy v terminálu
 
 python --version - zobrazí verzi v terminálu;
 python nazev souboru.py (python test.py) - spustí soubor v terminálu;
+exit() - vymaže terminál;
 print (2+2) - zobrazí výsledek v terminálu;
 
 Středník (;) je volitelný na konci výrazu v Pythonu. V Pythonu se k oddělení příkazů používají zalomení řádků. Pokud však chcete na jeden řádek uvést více příkazů, můžete použít středník. Příklad: print(2 ** 8); print("Hello, World!")
@@ -70,18 +71,18 @@ print((12*(174//2)*15)-((12*0.65)*(174//2)*15)) # rozdil cen
 # total = (ticket * (spectators//2) * performances) + (0.65 * ticket * (spectators//2) * performances) # Dělení používáme beze zbytku //, protože pokud celkový počet není sudý, můžeme získat pulku osoby, a to není správné.
 # print(f"Spolu se slevou pro studenty byly měsíční výdělky divadla: {total} eur")   # pokud použijeme vložení {...} uprostřed řádku, pak by před uvozovkami mělo být f v poslušném pořadí
 
-# #----------------------------------Cvičení 2 Hrátky s řetězci-------------------------------------------
-# print('Národní divadlo')
-# print('Národní ' + 'divadlo')
-# print('Národní divadlo ' * 3)
-# result = '1' * 256 + '0' * 256
-# print(result)
-# print('1' * 256 + '0' * 256)
+# #----------------------------------Cvičení 2 Hrátky s řetězci--------------
+print('Národní divadlo')
+print('Národní ' + 'divadlo')
+print('Národní divadlo ' * 3)
+result = '1' * 256 + '0' * 256
+print(result)
+print('1' * 256 + '0' * 256)
 
 #----------------------------------Cvičení 3 Shannonovo číslo
 shannon_number = 10 ** 123
 print("1" + "0" * 120)
-print("1" + "000 " * 40)
+print("1" + "000 " * 41)
 
 # --------------------Variant 2
 # print(str(shannon_number))   #1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
